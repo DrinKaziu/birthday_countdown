@@ -1,28 +1,28 @@
 .App {
   text-align: center;
+  font-size: 35px;
+  margin-top: 10%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.title {
+  font-size: 100px;
+  font-family: 'Love Ya Like A Sister', cursive;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.date {
+  font-size: 70px;
+  font-family: 'Gaegu', cursive;
+  font-weight: 700;
 }
 
-.App-title {
-  font-size: 1.5em;
+.Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
+  display: inline;
+  margin: 10px;
+  font-family: 'Gaegu', cursive;
+  font-size: 45px;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Deadline-input {
+  /* font-size: 20px; */
+  margin: 5px;
 }
